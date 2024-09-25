@@ -27,7 +27,7 @@ function login(){
       if(user[username.value].username==username.value && user[username.value].password==password.value)
       {
         // alert("successfully")
-        window.location='home.html'
+        window.location='./home.html'
       }
       else{
         alert('password not match')
@@ -56,7 +56,7 @@ function signup(){
 
     localStorage.setItem('user',JSON.stringify(user))
 console.log(localStorage.getItem('user'));
-  window.location='login.html';
+  window.location='./login.html';
 
    }
    
